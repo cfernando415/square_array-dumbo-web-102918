@@ -3,4 +3,6 @@ def square_array(array)
   temp = []
   array.each do |element|
     temp << element**2
+  end
+  temp
 end
